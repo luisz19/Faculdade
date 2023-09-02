@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <p>Preencha seus dados e clique em cadastrar</p>
+    <hr>
+
+    <label for="inome">Nome:</label>
+    <input type="text" name="nome" id="inome" placeholder="Primeiro nome">
+    <br>
+
+    <label for="isobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" id="isobrenome" placeholder="Insira seu sobrenome">
+    <br>
+
+    <label for="iemail">Email:</label>
+    <input type="email" name="email" id="iemail" placeholder="Informe seu e-mail">
+    <br>
+
+    <label for="iphone">Telefone:</label>
+    <input type="text" name="telefone" id="iphone" placeholder="Seu número">
+
+    <br>
+    <hr>
+
+    <label for="idata">Data de nascimento:</label>
+    <input type="date" name="data" id="idata">
+
+    <hr>
+    <br>
+
+    <label for="">Ocupação<br></label><br> <!--Um ID para cada botão-->
+    <input name="radio_button" type="radio" id="ibotao1"> <label for="ibotao1">Estudante</label> <br>
+
+    <input name="radio_button" type="radio" id="ibotao2"> <label for="ibotao2">Profissional Liberal</label><br>
+
+    <input name="radio_button" type="radio" id="ibotao3"> <label for="ibotao3">Contratado</label><br>
+
+    <hr>
+
+    <label for="">Selecione uma foto</label>
+    
+    <input type="file">
+
+    <hr>
+
+    <input type="checkbox">
+    <label for="">Concordo com o envio de dados.</label>
+
+    <hr>
+
+    <input type="submit">
+
+
+    
+</body>
+</html>
