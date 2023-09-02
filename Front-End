@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <figure><img src="img3.jpg" alt=""></figure>
+    <h1>Game of Thrones</h1>
+    <h2>9.1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laboriosam quae distinctio illo. Aliquid consectetur cupiditate doloribus id dolorum veniam, qui, totam nulla nam ratione neque culpa! Perferendis, placeat corrupti.</p>
+    
+    <h2>Temporadas</h2>
+    <ul>
+        <li>Temporada 1</li>
+        <li>Temporada 2</li>
+        <li>Temporada 3</li>
+        <li>Temporada 4</li>
+        <li>Temporada 5</li>
+        <li>Temporada 6</li>
+        <li>Temporada 7</li>
+        <li>Temporada 8</li>
+    </ul>
+
+    <h2>Registre seu voto</h2>
+    <hr>
+
+    <label for="">Seu nome:</label>
+    <input type="text"><br>
+
+    <label for="">Seu E-mail:</label>
+    <input type="text"><br>
+
+    <label for="">Seu Estado:</label>
+
+    <select name="" id="">
+        <option value="">PE</option>
+        <option value="">CE</option>
+        <option value="">BA</option>
+    </select><br>
+
+    <label for="">Qual a nota para a série</label><br>
+    <input type="range">
+    <br>
+    <button>Enviar nota</button>
+    
+
+    
+</body>
+</html>
