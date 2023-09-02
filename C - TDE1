@@ -1,0 +1,138 @@
+#include <stdio.h>
+/*
+int main(){
+	
+	double salario, total, bonus;
+  
+	char nome;
+	scanf("%s", &nome);
+	scanf("%lf", &salario);
+	scanf("%lf", &total);
+
+  bonus = salario + (total * 0.15);
+  printf("%.2lf", bonus);
+  
+}
+*/
+
+/*
+int main(){
+
+  double n1, n2, n3, n4, media, nota, media_final;
+
+  scanf("%lf %lf %lf %lf", &n1, &n2, &n3, &n4);
+  
+  media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1)) / 10;
+
+  printf("Media: %.1lf\n", media);
+  
+  if(media >= 7){
+      
+    printf("Aluno aprovado.\n");
+    
+  } else if(media < 5) {
+      
+      printf("Aluno reprovado.\n");
+      
+  } else {
+      
+      printf("Aluno em exame.\n");
+      
+      scanf("%lf", &nota);
+      
+      printf("Nota do exame: %.1lf\n", nota);
+    
+      media = (media + nota) / 2;
+    
+      if (media >= 5){
+       
+        printf("Aluno aprovado.\n");
+        
+      } else {
+        
+        printf("Aluno reprovado.\n");
+         
+      } 
+
+      printf("Media final: %.1lf\n", media);
+        
+  }
+
+    return 0;
+  
+}
+*/
+
+/*
+int main(){
+
+  int n1, n2;
+  float money;
+
+  scanf("%d %d", &n1, &n2);
+
+  if(n1 == 1){
+    money = n2 * 4.00;
+    printf("Total: R$ %.2f\n", money);
+    
+  } else if(n1 == 2){
+    money = n2 * 4.50;
+    printf("Total: R$ %.2f\n", money);
+    
+  } else if(n1 == 3){
+    money = n2 * 5.00;
+    printf("Total: R$ %.2f\n", money);
+    
+  } else if(n1 == 4){
+    money = n2 * 2.00;
+    printf("Total: R$ %.2f\n", money);
+    
+  } else if(n1 == 5){
+    money = n2 * 1.50;
+    printf("Total: R$ %.2f\n", money);
+    
+  }
+  
+}
+
+*/
+
+/*
+#include <math.h>
+
+int main() {
+
+  double a, b, c, raiz, raiz2, delta;
+
+  scanf("%lf %lf %lf", &a, &b, &c);
+
+  delta = pow(b, 2) - 4 * a * c;
+
+  if(delta < 0 || a == 0){
+    printf("Impossivel calcular\n");
+    
+  }else {
+    raiz = (-b + sqrt(delta)) / (2 * a);
+    raiz2 = (-b - sqrt(delta)) / (2 * a);
+
+    printf("R1 = %.5lf\n", raiz);
+    printf("R2 = %.5lf\n", raiz2);
+    
+    
+  }
+
+}
+*/
+
+int main(){
+
+  int a, b, c, maior;
+
+  scanf("%d %d %d", &a, &b, &c);
+
+  maior = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+
+  printf("%d eh maior\n", maior);
+  
+}
+ 
